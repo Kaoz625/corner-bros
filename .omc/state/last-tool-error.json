@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"mkdir -p \\\"/Users/markususche/Corner Bros/assets/images/gallery\\\"\\n\\n# Download all photos and video thumbnails from the fetched posts\\ndeclare -a URLS=(\\n\\\"https://scontent-lga3-1.cdninst...",
-  "error": "Exit code 1\n(eval):13: bad substitution",
-  "timestamp": "2026-05-29T04:44:16.305Z",
+  "tool_input_preview": "{\"command\":\"env -u CLOUDFLARE_API_TOKEN -u CF_API_TOKEN \\\\\\n  wrangler pages domain add cornerbros.nyctailblazers.com --project-name corner-bros 2>&1\",\"description\":\"Add custom domain to Cloudflare Pa...",
+  "error": "Exit code 1\n\n\u001b[31m✘ \u001b[41;31m[\u001b[41;97mERROR\u001b[41;31m]\u001b[0m \u001b[1mUnknown arguments: project-name, projectName, domain, add, cornerbros.nyctailblazers.com\u001b[0m\n\n\nwrangler pages\n\n⚡️ Configure Cloudflare Pages\n\nCOMMANDS\n  wrangler pages dev [directory] [command]  Develop your full-stack Pages application locally\n  wrangler pages functions                  Helpers related to Pages Functions\n  wrangler pages project                    Interact with your Pages projects\n  wrangler pages deployment           ...",
+  "timestamp": "2026-05-29T04:47:31.386Z",
   "retry_count": 2
 }

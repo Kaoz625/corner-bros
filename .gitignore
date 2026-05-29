@@ -2,3 +2,4 @@ preview-full.png
 .DS_Store
 *.log
 .omc/
+.wrangler/
