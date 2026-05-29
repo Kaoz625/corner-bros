@@ -474,6 +474,12 @@ nav.scrolled {
     font-size: 0.85rem;
 }
 
+.btn-row {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 /* About visual */
 .about-visual {
     position: relative;
